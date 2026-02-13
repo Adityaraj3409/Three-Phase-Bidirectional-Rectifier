@@ -31,3 +31,12 @@ Active and reactive currents are controlled independently:
 + dq → abc transformation  
 + PWM generation  
 + Gate signal creation for converter switches
+
+## 📊 Simulation Results
+
+The model demonstrates:  
++ Stable dq current tracking.  
++ Proper bidirectional power flow.  
++ Controlled battery charging/discharging.  
++ PLL synchronized operation.  
+Smooth DC bus dynamics.
