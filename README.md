@@ -10,10 +10,10 @@ This project models a Voltage Source Converter (VSC) with dq-axis control to reg
 
 The controller enables:
 
-✅ Grid-to-Vehicle charging (G2V)
-✅ Vehicle-to-Grid discharging (V2G)
-✅ Unity power factor operation
-✅ Stable DC bus regulation
+✅ Grid-to-Vehicle charging (G2V).
+✅ Vehicle-to-Grid discharging (V2G).
+✅ Unity power factor operation.
+✅ Stable DC bus regulation.
 
 🧠 Control Architecture
 
@@ -21,12 +21,12 @@ The system uses synchronous reference frame control.
 
 🔹 Phase Locked Loop (PLL)
 
-Synchronizes controller with grid voltage phase
-Provides angle θ for abc↔dq transformations
+Synchronizes controller with grid voltage phase.
+Provides angle θ for abc↔dq transformations.
 
 🔹 dq Current Control
 
 Active and reactive currents are controlled independently:
 
-Id → Controls active power / battery charging current
-Iq → Controls reactive power (set to 0 for unity PF) 
+Id → Controls active power / battery charging current.
+Iq → Controls reactive power (set to 0 for unity PF).
