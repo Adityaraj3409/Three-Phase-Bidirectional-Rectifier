@@ -21,8 +21,8 @@ The system uses synchronous reference frame control.
 
 🔹 Phase Locked Loop (PLL)
 
-Synchronizes controller with grid voltage phase.  
-Provides angle θ for abc↔dq transformations.
++ Synchronizes controller with grid voltage phase.  
++ Provides angle θ for abc↔dq transformations.
 
 🔹 dq Current Control
 
