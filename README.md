@@ -16,17 +16,18 @@ The controller enables:
 ✅ Stable DC bus regulation.  
 
 ## 🧠 Control Architecture
-
 The system uses synchronous reference frame control.
 
 🔹 Phase Locked Loop (PLL)
-
 + Synchronizes controller with grid voltage phase.  
 + Provides angle θ for abc↔dq transformations.
 
 🔹 dq Current Control
-
 Active and reactive currents are controlled independently:
++ Id → Controls active power / battery charging current.  
++ Iq → Controls reactive power (set to 0 for unity PF).
 
-Id → Controls active power / battery charging current.  
-Iq → Controls reactive power (set to 0 for unity PF).  
+🔹 Modulation Stage  
++ dq → abc transformation  
++ PWM generation  
++ Gate signal creation for converter switches
