@@ -8,6 +8,8 @@ This project demonstrates advanced power electronics control including PLL synch
 Modern EV chargers require efficient AC-DC conversion with precise current control and the ability to operate bidirectionally.
 This project models a Voltage Source Converter (VSC) with dq-axis control to regulate active and reactive power exchange with the grid.
 
+<img width="1919" height="824" alt="Screenshot 2026-02-13 193747" src="https://github.com/user-attachments/assets/878cc1fe-49c5-4b9d-bf33-54727834e5f5" />
+
 The controller enables:
 
 ✅ Grid-to-Vehicle charging (G2V).  
